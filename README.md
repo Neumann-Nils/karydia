@@ -1,5 +1,9 @@
 # karydia - Kubernetes security walnut
 
+<img align="right" src="logo/Karydia@0.5x.png">
+
+![karydia Logo](logo/Karydia@0.5x.png)
+
 Status: alpha, work in progress
 
 karydia is a security add-on to Kubernetes to help with good security practices
