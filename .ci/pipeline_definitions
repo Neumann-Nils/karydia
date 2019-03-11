@@ -8,5 +8,3 @@ karydia:
             first_image: # logical image name
               dockerfile: 'Dockerfile'
               tag_as_latest: False
-      steps:
-        test: ~
