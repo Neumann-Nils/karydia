@@ -6,8 +6,7 @@ karydia:
         publish:
           dockerimages:
             first_image: # logical image name
-              image: 'eu.gcr.io/gardener-project/karydia/karydia'
               dockerfile: 'Dockerfile'
-              tag_as_latest: True
+              tag_as_latest: False
       steps:
         test: ~
