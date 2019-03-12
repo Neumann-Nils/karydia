@@ -1,10 +1,9 @@
-karydia:
-  jobs:
-    head-update:
-      traits:
-        version: ~
-        publish:
-          dockerimages:
-            first_image: # logical image name
-              dockerfile: 'Dockerfile'
-              tag_as_latest: False
+karydia-pipeline:
+    jobs:
+        build-image-job:
+            traits:
+                publish:
+                    dockerimages:
+                        karydia:
+                            dockerfile: 'Dockerfile'
+                            tag_as_latest: True
