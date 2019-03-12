@@ -17,6 +17,7 @@ RUN mkdir -p /go/src/github.com/karydia/karydia/
 WORKDIR /go/src/github.com/karydia/karydia/
 COPY ./ ./
 RUN make
+RUN make test
 
 FROM k8s.gcr.io/debian-base-amd64:0.4.0
 COPY --from=build-stage /go/src/github.com/karydia/karydia/ /usr/local/bin/karydia
