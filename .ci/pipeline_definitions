@@ -7,5 +7,4 @@ karydia-pipeline:
                     dockerimages:
                         karydia:
                             dockerfile: 'Dockerfile'
-                            image: 'eu.gcr.io/gardener-project/deleteme/karydia'
                             tag_as_latest: True
